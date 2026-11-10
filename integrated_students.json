@@ -1,0 +1,78 @@
+[
+  {
+    "studentId": 1001,
+    "studentName": "Juan Dela Cruz",
+    "program": "Bachelor of Science in Information Technology",
+    "emailAddress": "juan.dc@example.com",
+    "courses": [
+      {
+        "courseCode": "IT101",
+        "finalGrade": 1.5,
+        "completionStatus": "Completed"
+      }
+    ],
+    "accounting": {
+      "outstandingBalance": 0,
+      "currency": "PHP"
+    }
+  },
+  {
+    "studentId": 1002,
+    "studentName": "Maria Santos",
+    "program": "Bachelor of Science in Computer Science",
+    "emailAddress": "maria.santos@example.com",
+    "courses": [
+      {
+        "courseCode": "CS101",
+        "finalGrade": 1.75,
+        "completionStatus": "Completed"
+      }
+    ],
+    "accounting": {
+      "outstandingBalance": 5000,
+      "currency": "PHP"
+    }
+  },
+  {
+    "studentId": 1003,
+    "studentName": "Pedro Reyes",
+    "program": "Bachelor of Science in Information Technology",
+    "emailAddress": "pedro.reyes@example.com",
+    "courses": [
+      {
+        "courseCode": "IT101",
+        "finalGrade": 2,
+        "completionStatus": "Completed"
+      }
+    ],
+    "accounting": {
+      "outstandingBalance": 1500,
+      "currency": "PHP"
+    }
+  },
+  {
+    "studentId": 1004,
+    "studentName": "Ana Garcia",
+    "program": "Bachelor of Science in Information Systems",
+    "emailAddress": "ana.garcia@example.com",
+    "courses": [],
+    "accounting": {
+      "outstandingBalance": 2500.5,
+      "currency": "PHP"
+    }
+  },
+  {
+    "studentId": 1006,
+    "studentName": "Liza Mendoza",
+    "program": "Bachelor of Science in Information Technology",
+    "emailAddress": "liza.mendoza@example.com",
+    "courses": [
+      {
+        "courseCode": "IT101",
+        "finalGrade": "INC",
+        "completionStatus": "In Progress"
+      }
+    ],
+    "accounting": null
+  }
+]

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ETL Exercise — Miguel Marco C. Estavillo</title>
+<link rel="stylesheet" href="style.css">
+<script src="csv-parser.js" defer></script>
+<script src="etl.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<header><h1>Miguel Marco C. Estavillo</h1><h3><i>IT 3206N TTH 3:00 - 5:30</i></h3></header>
+<main>
+<h1>ETL Exercise</h1>
+<h2>1. Upload Source CSV Files</h2>
+<p><label for="sisFile">Student Information System (SIS):</label></p>
+<input type="file" id="sisFile" accept=".csv,text/csv">
+<p><label for="lmsFile">Learning Management System (LMS):</label></p>
+<input type="file" id="lmsFile" accept=".csv,text/csv">
+<p><label for="accountingFile">Accounting System:</label></p>
+<input type="file" id="accountingFile" accept=".csv,text/csv">
+<p><button id="runButton" type="button">RUN ETL</button></p>
+<p id="status" role="status">Upload the three CSV files and click RUN ETL.</p>
+<ul id="warnings" hidden></ul>
+<h2>2. JSON Output</h2>
+<pre id="output">Upload the CSV files and click RUN ETL.</pre>
+<p><button id="download" type="button" disabled>Download JSON</button></p>
+
+</main></body></html>
